@@ -1,2 +1,2 @@
 # NetflixClone
-link to the project- 
+link to the project-  https://khushikashyap-web.github.io/NetflixClone/
