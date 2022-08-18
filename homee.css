@@ -72,8 +72,20 @@ header {
   text-align: center;
   font-weight: 500;
 }
+.headingmoretext {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+.registeremail {
+  margin-top: 2%;
+  height: 50px;
+  width: 300px;
+  font-size: 25px;
+  margin-left: 31%;
+}
 .restartmembership {
-  margin-left: 37%;
+  margin-top: -1%;
   text-align: center;
   font-size: 25px;
   color: white;
@@ -85,6 +97,7 @@ header {
   display: inline-block;
   background-color: black;
   border: 2px solid white;
+  padding-bottom: 2%;
 }
 .ontvcontentent {
   float: left;
@@ -92,8 +105,9 @@ header {
   margin-left: 5%;
   color: white;
   display: inline-block;
-  margin-bottom: 2%;
+
   width: 45%;
+  margin-bottom: 2%;
   /* border: 2px solid white; */
 }
 .ontvheading {
@@ -119,9 +133,10 @@ header {
   /* border: 2px solid white; */
 }
 .Download {
-  height: 500px;
+  display: inline-block;
   background-color: black;
   border: 2px solid white;
+  padding-bottom: 2%;
 }
 .Downloadcontent {
   float: right;
@@ -156,9 +171,10 @@ header {
   /* border: 2px solid white; */
 }
 .watchEverywhere {
-  height: 500px;
+  display: inline-block;
   background-color: black;
   border: 2px solid white;
+  padding-bottom: 4%;
 }
 .watchEverywherecontent {
   float: left;
@@ -194,6 +210,7 @@ header {
   /* border: 2px solid white; */
 }
 .childrenProfile {
+  padding-bottom: 4%;
   display: inline-block;
   /* height: 500px; */
   background-color: black;
@@ -327,7 +344,73 @@ footer {
   height: 40px;
   color: black;
 }
+.restartmembershipp {
+  margin-left: 34%;
+  height: 60px;
+  width: 30%;
+  font-size: 22px;
+}
 .flast {
   margin-left: 9%;
   line-height: 10;
+}
+
+@media screen and (max-width: 999px) {
+  body {
+    background-color: blue;
+  }
+  .ontvanimation {
+    width: 90%;
+  }
+  .ontvcontentent {
+    width: 90%;
+  }
+  .childrenProfileanimation {
+    width: 90%;
+  }
+  .childrenProfilecontent {
+    width: 90%;
+  }
+  .downloadanimation {
+    width: 90%;
+  }
+  .Downloadcontent {
+    width: 90%;
+  }
+  .watchEverywhereanimation {
+    width: 90%;
+  }
+  .watchEverywherecontent {
+    width: 90%;
+  }
+  .registeremail {
+    height: 50px;
+    width: 30%;
+
+    margin-left: 29%;
+  }
+  .restartmembership {
+    width: 18%;
+    margin-top: -1%;
+  }
+  .restartmembershipp {
+    margin-left: 34%;
+    height: 60px;
+    width: 30%;
+    font-size: 22px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .headingtext {
+    font-size: 22px;
+  }
+  .headingmoretext {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 699px) {
+  body {
+    background-color: purple;
+  }
 }
