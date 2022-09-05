@@ -25,9 +25,9 @@ header {
   /* transform: scaleX(1.5); */
 }
 .dropdown {
-  float: right;
-  margin-top: 2%;
-  margin-right: -50%;
+  float: left;
+  margin-top: -2%;
+  margin-right: -44%;
   /* margin-right: 10%; */
   height: 20px;
   /* display: inline; */
@@ -40,13 +40,14 @@ header {
   height: 40px;
 }
 .signout {
-  margin-top: 3.5%;
+  /* margin-top: 3.5%;
   margin-left: 2%;
-  margin-right: 3%;
+  margin-right: 3%; */
+  margin-right: -50%;
   background-color: red;
 }
 .btn {
-  margin-top: 3.5%;
+  /* margin-top: 3.5%;*/
   background-color: red;
 }
 .welcomescreen {
@@ -133,6 +134,7 @@ header {
   /* border: 2px solid white; */
 }
 .Download {
+  width: 100%;
   display: inline-block;
   background-color: black;
   border: 2px solid white;
@@ -163,7 +165,7 @@ header {
   background-image: url("images/download.jpg");
   background-repeat: no-repeat;
   background-size: 100% 350px;
-  float: left;
+  float: right;
   margin-top: 3%;
   margin-left: 5%;
   width: 40%;
@@ -345,6 +347,7 @@ footer {
   color: black;
 }
 .restartmembershipp {
+  margin-top: 1%;
   margin-left: 34%;
   height: 60px;
   width: 30%;
@@ -412,4 +415,8 @@ footer {
   body {
     background-color: purple;
   }
+}
+.mydark {
+  background-color: white;
+  color: black;
 }
