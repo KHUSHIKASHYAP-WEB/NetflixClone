@@ -13,9 +13,17 @@
   </head>
   <body>
     <header>
-      <div class="main">
+      <div class="main" id="main">
         <div class="navbar">
           <span class="logo">NETFLIX</span>
+          <button onClick="changeMode()" id="mode">
+            <img
+              src="images/brightness.png"
+              alt="modeimg"
+              width="30px"
+              height="30px"
+            />
+          </button>
           <span class="dropdown">
             <select id="selectLanguage">
               <option>English</option>
@@ -27,13 +35,14 @@
             </select>
           </span>
           <btn class="btn btn-danger signout">Sign Out</btn>
-          <span
+          <!-- <span
             class="glyphicon glyphicon-certificate"
             onClick="changeMode()"
-          ></span>
+          ></span> -->
+          <!-- <button onclick="changeMode()">L/D MODE</button> -->
         </div>
 
-        <div class="welcomescreen">
+        <div class="welcomescreen" id="welcomescreen">
           <div class="welcomeBack">Welcome Back!</div>
           <div class="heading">Unlimited movies, TV shows and more.</div>
           <div class="headingtext">Watch anywhere. Cancel anytime.</div>
@@ -50,7 +59,7 @@
         <btn class="btn btn-danger restartmembership">Get Started ></btn>
       </div>
     </header>
-    <div class="onTv">
+    <div class="onTv" id="OnTv">
       <div class="ontvcontentent">
         <div class="ontvheading">Enjoy on your TV.</div>
         <div class="ontvtext">
@@ -65,7 +74,7 @@
       </div>
     </div>
     <!-- </div> -->
-    <div class="Download">
+    <div class="Download" id="Download">
       <div class="Downloadcontent">
         <div class="Downloadheading">Download your shows to watch offline.</div>
         <div class="Downloadtext">
@@ -78,7 +87,7 @@
         </div>
       </div>
     </div>
-    <div class="watchEverywhere">
+    <div class="watchEverywhere" id="watchEverywhere">
       <div class="watchEverywherecontent">
         <div class="watchEverywhereheading">Watch everywhere.</div>
         <div class="watchEverywheretext">
@@ -92,7 +101,7 @@
         </div>
       </div>
     </div>
-    <div class="childrenProfile">
+    <div class="childrenProfile" id="childrenProfile">
       <div class="childrenProfilecontent">
         <div class="childrenProfileheading">Create profiles for children.</div>
         <div class="childrenProfiletext">
@@ -106,7 +115,7 @@
         </div>
       </div>
     </div>
-    <div class="faqs">
+    <div class="faqs" id="faqs">
       <div class="faqheading">Frequently Asked Questions</div>
 
       <button class="accordion">What is Netflix?</button>
@@ -176,7 +185,7 @@
         >Restart Your Membership ></btn
       >
     </div>
-    <footer>
+    <footer id="footer">
       <div class="fheading">Questions? Call 000-800-040-1843</div>
 
       <div class="f1">
@@ -214,6 +223,7 @@
           <option>Spanish</option>
         </select>
       </div>
+
       <br />
       <div class="flast">Netflix India</div>
 
