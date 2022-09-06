@@ -41,7 +41,20 @@
           ></span> -->
           <!-- <button onclick="changeMode()">L/D MODE</button> -->
         </div>
-
+        <div id="coupon">
+          <div id="coupon_content">
+            <h1 class="clogo">NETFLIX</h1>
+            <p id="coupon_sub_head">Stream in Ultra HD</p>
+            <h1 id="coupon_money">For Just Rs. 799</h1>
+            <hr />
+            <p id="coupon_info">stream unlimited movies and web series</p>
+            <p id="promocode">Use Promo Code: <mark>BOH232</mark></p>
+            <button class="btn" id="cbutton">Avail Now</button>
+          </div>
+          <div id="coupon_image">
+            <button id="coupon_close" onclick="closeCoupon()">&times;</button>
+          </div>
+        </div>
         <div class="welcomescreen" id="welcomescreen">
           <div class="welcomeBack">Welcome Back!</div>
           <div class="heading">Unlimited movies, TV shows and more.</div>
@@ -230,6 +243,7 @@
       <br />
     </footer>
     <script>
+      // window.onload = loadCoupon();
       var acc = document.getElementsByClassName("accordion");
       var i;
 

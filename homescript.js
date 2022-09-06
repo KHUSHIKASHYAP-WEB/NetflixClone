@@ -15,3 +15,11 @@ const changeMode = () => {
   mywatch.toggle("mydark");
   footer.toggle("mydark");
 };
+function loadCoupon() {
+  document.getElementById("coupon").style.display = "block";
+  document.getElementById("coupon").style.opacity = "1";
+}
+function closeCoupon() {
+  document.getElementById("coupon").style.display = "none";
+  document.getElementById("coupon").style.opacity = ".5";
+}
