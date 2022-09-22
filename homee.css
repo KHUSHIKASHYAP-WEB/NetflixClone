@@ -2,7 +2,7 @@ header {
   background-image: url("images/netflix.jpg");
   background-repeat: no-repeat;
   background-attachment: none;
-  background-size: 100% 650px;
+  background-size: 100% 700px;
   height: 700px;
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid black;
@@ -91,30 +91,51 @@ body {
   /* transform: scaleX(1.5); */
 }
 .dropdown {
-  float: right;
+  position: absolute;
+
   margin-top: -2%;
-  margin-left: 2%;
-  /* margin-right: -14%; */
+  /* margin-left: 2%; */
+  margin-left: 76%;
 
   /* margin-right: -20%; */
   /* margin-right: -50%; */
   /* margin-right: 10%; */
+
   height: 20px;
   /* display: inline; */
   background-color: rgba(0, 0, 0, 0.7);
 }
 #selectLanguage {
-  padding-right: 70%;
+  /* float: right;*/
   height: 40px;
 }
-.signout {
+#mode {
   float: right;
-  margin-left: 2%;
+  /* margin-left: 85%; */
+  border: 2px solid black;
+  /* position: absolute; */
+  /* margin-right: -40%; */
+  /* background-color: black;
+  /* float: right; */
+  /* margin-left: 85%;
+  border: 2px solid black;
+  position: absolute; */
+  /* margin-right: -40%; */
+  /* background-color: black; */
+}
+.signout {
+  /* width: 12%; */
+  float: right;
+  /* margin-left: 2%; */
+  /* margin-right: 2%; */
+  background-color: red;
+  /* float: right; */
+  /* margin-left: 2%; */
   /* margin-top: 3.5%;
   margin-left: 2%;
   margin-right: 3%; */
-  margin-right: 2%;
-  background-color: red;
+  /* margin-right: 2%;
+  background-color: red; */
 }
 .btn {
   /* margin-top: 3.5%;*/
@@ -429,9 +450,30 @@ footer {
   line-height: 10;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 900px) {
   body {
     background-color: blue;
+  }
+  .main {
+    height: 680px;
+  }
+  header {
+    /* background-image: url("images/netflix.jpg");
+    background-repeat: no-repeat;
+    background-attachment: none; */
+    background-size: 100% 680px;
+    height: 680px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* border: 1px solid black; */
+  }
+
+  .restartmembership {
+    margin-top: -1%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .restartmembership:hover {
+    transform: scale(1.1);
   }
   .ontvanimation {
     width: 90%;
@@ -459,18 +501,21 @@ footer {
   }
   .registeremail {
     height: 50px;
-    width: 30%;
-    margin-left: 29%;
+    width: 36%;
+    margin-left: 19%;
+    font-size: 18px;
   }
   .restartmembership {
-    width: 18%;
+    width: 30%;
     margin-top: -1%;
+    font-size: 18px;
+    height: 50px;
   }
   .restartmembershipp {
-    margin-left: 34%;
-    height: 60px;
+    margin-left: 30%;
+    height: 30px;
     width: 30%;
-    font-size: 22px;
+    font-size: 20px;
   }
   .heading {
     font-size: 40px;
@@ -481,12 +526,164 @@ footer {
   .headingmoretext {
     font-size: 18px;
   }
-}
-
-@media screen and (max-width: 699px) {
-  body {
-    background-color: purple;
+  /* .dropdown {
+    display: none;
   }
+  #mode {
+    display: none;
+  } */
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: blue;
+  }
+  .main {
+    height: 900px;
+  }
+  header {
+    /* background-image: url("images/netflix.jpg");
+    background-repeat: no-repeat;
+    background-attachment: none; */
+    background-size: 100% 900px;
+    height: 900px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* border: 1px solid black; */
+  }
+
+  .ontvanimation {
+    width: 90%;
+  }
+  .ontvcontentent {
+    width: 90%;
+  }
+  .childrenProfileanimation {
+    width: 90%;
+  }
+  .childrenProfilecontent {
+    width: 90%;
+  }
+  .downloadanimation {
+    width: 90%;
+  }
+  .Downloadcontent {
+    width: 90%;
+  }
+  .watchEverywhereanimation {
+    width: 90%;
+  }
+  .watchEverywherecontent {
+    width: 90%;
+  }
+  .registeremail {
+    height: 30px;
+    width: 38%;
+    margin-left: 16%;
+    font-size: 14px;
+    margin-top: 5%;
+  }
+  .restartmembership {
+    width: 30%;
+    margin-top: -1%;
+    font-size: 14px;
+    height: 30px;
+  }
+  .restartmembershipp {
+    margin-left: 30%;
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .headingtext {
+    font-size: 22px;
+  }
+  .headingmoretext {
+    font-size: 18px;
+  }
+  /* .dropdown {
+    display: none;
+  }
+  #mode {
+    display: none;
+  } */
+}
+@media screen and (max-width: 400px) {
+  body {
+    background-color: blue;
+  }
+  .main {
+    height: 800px;
+  }
+  header {
+    /* background-image: url("images/netflix.jpg");
+    background-repeat: no-repeat;
+    background-attachment: none; */
+    background-size: 100% 800px;
+    height: 800px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* border: 1px solid black; */
+  }
+
+  .ontvanimation {
+    width: 90%;
+  }
+  .ontvcontentent {
+    width: 90%;
+  }
+  .childrenProfileanimation {
+    width: 90%;
+  }
+  .childrenProfilecontent {
+    width: 90%;
+  }
+  .downloadanimation {
+    width: 90%;
+  }
+  .Downloadcontent {
+    width: 90%;
+  }
+  .watchEverywhereanimation {
+    width: 90%;
+  }
+  .watchEverywherecontent {
+    width: 90%;
+  }
+  .registeremail {
+    height: 30px;
+    width: 38%;
+    margin-left: 16%;
+    font-size: 14px;
+    margin-top: 5%;
+  }
+  .restartmembership {
+    width: 30%;
+    margin-top: -1%;
+    font-size: 14px;
+    height: 30px;
+  }
+  .restartmembershipp {
+    margin-left: 30%;
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .headingtext {
+    font-size: 22px;
+  }
+  .headingmoretext {
+    font-size: 18px;
+  }
+  /* .dropdown {
+    display: none;
+  }
+  #mode {
+    display: none;
+  } */
 }
 .mydark {
   background-color: white;
@@ -496,13 +693,27 @@ footer {
   background-color: rgba(255, 255, 255, 0.3);
   color: black;
 }
-#mode {
-  float: left;
-  margin-left: 40%;
-  border: 2px solid black;
-  /* position: absolute; */
-  /* margin-right: -40%; */
-  /* background-color: black; */
+
+#display_main_day {
+  float: right;
+  font: 12px;
+  margin-top: 1%;
+  /* border: 2px solid yellow; */
+  /* width: 100px; */
+  /* height: 60px;
+  /* float: right;
+  font: 12px;
+  margin-right: 2px;
+  border: 2px solid yellow;
+  width: 100px;
+  height: 60px; */
+}
+#weather_icon > img {
+  float: right;
+  margin-right: 2px;
+  border: 2px solid yellow;
+  width: 50px;
+  height: 50px;
 }
 /* .mydark {
   background-color: black;

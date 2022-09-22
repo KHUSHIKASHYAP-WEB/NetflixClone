@@ -6,19 +6,20 @@
       name="google-site-verification"
       content="eVyPIZ82uJyTVT4w6p8Z1BwYCt2d8kx14l1W7HRH_pY"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="homescript.js"></script>
+
     <link rel="stylesheet" href="homee.css" />
   </head>
   <body>
     <header>
       <div class="main" id="main">
         <div class="navbar">
-          <span class="logo">NETFLIX</span>
+          <div class="logo">NETFLIX</div>
           <button onClick="changeMode()" id="mode">
             <img
               src="images/brightness.png"
@@ -27,7 +28,7 @@
               height="30px"
             />
           </button>
-          <span class="dropdown">
+          <!-- <div class="dropdown">
             <select id="selectLanguage">
               <option>English</option>
               <option>Hindi</option>
@@ -36,8 +37,16 @@
               <option>French</option>
               <option>Spanish</option>
             </select>
-          </span>
+          </div> -->
           <btn class="btn btn-danger signout">Sign Out</btn>
+          <div id="display_main_day"></div>
+          <div id="weather_icon"></div>
+          <!-- <div id="display_main_day">hi</div> -->
+          <!-- <div class="weather">
+            <span id="display_main_day"></span>
+             <div class="display7"> 
+            <span class="cur_weat"></span>
+          </div> -->
           <!-- <span
             class="glyphicon glyphicon-certificate"
             onClick="changeMode()"
@@ -75,6 +84,9 @@
         <btn class="btn btn-danger restartmembership">Get Started ></btn>
       </div>
     </header>
+
+    <!-- <div class="display7"> -->
+    <h2 class="cur_weat"></h2>
     <div class="onTv" id="OnTv">
       <div class="ontvcontentent">
         <div class="ontvheading">Enjoy on your TV.</div>
@@ -245,6 +257,7 @@
 
       <br />
     </footer>
+    <!-- <div id="display_main_day">hiiiiiiiiiiiiii</div> -->
     <script>
       // window.onload = loadCoupon();
       var acc = document.getElementsByClassName("accordion");
@@ -262,5 +275,6 @@
         });
       }
     </script>
+    <script src="homescript.js"></script>
   </body>
 </html>

@@ -1,0 +1,53 @@
+body {
+  font-size: 17px;
+}
+#select_menu {
+  display: none;
+}
+#search {
+  float: right;
+}
+#notify {
+  float: right;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  margin-top: 2%;
+}
+span {
+  margin-left: 0.7%;
+}
+#logo {
+  font-size: 25px;
+  float: left;
+  margin-right: 2%;
+  color: red;
+}
+#select_menu {
+  margin-top: 0.4%;
+  width: 18%;
+  height: 25px;
+}
+option {
+  width: 20%;
+}
+@media screen and (max-width: 660px) {
+  body {
+    background-color: blue;
+  }
+  #select_menu {
+    display: block;
+    float: left;
+  }
+  #menu_list {
+    display: none;
+  }
+  #search {
+    float: right;
+  }
+  #notify {
+    float: right;
+  }
+}
